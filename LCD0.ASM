@@ -11,6 +11,8 @@ CONFIG CPD = OFF     ; Protección del área de datos desactivada
 CONFIG WRT = OFF     ; Protección de escritura desactivada
 CONFIG CP = OFF      ; Protección de código desactivada
 
+#define _XTAL_FREQ 4000000  ; ? Define la frecuencia del oscilador a 4MHz
+
 ; == DEFINICIÓN DE PINES PARA LCD ==
 #define LCD_RS PORTC, 0   ; RS del LCD conectado a RC0
 #define LCD_RW PORTC, 1   ; RW del LCD conectado a RC1
